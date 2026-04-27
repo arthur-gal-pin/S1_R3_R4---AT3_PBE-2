@@ -30,7 +30,7 @@ const produtoRepository = {
             {
                 nome: row.NomeProduto,
                 idCategoria: row.IdCategoria,
-                valor: Number(row.Valor),
+                valor: row.Valor,
                 vinculoImagem: row.CaminhoImagem
             }
         ));

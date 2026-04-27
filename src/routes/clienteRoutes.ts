@@ -1,5 +1,5 @@
 import { Router } from "express";
-import clienteController from "../controllers/cliente.controller";
+import {clienteController} from "../controllers/cliente.controller";
 const clienteRoutes = Router();
 
 clienteRoutes.get('/', clienteController.listar);
